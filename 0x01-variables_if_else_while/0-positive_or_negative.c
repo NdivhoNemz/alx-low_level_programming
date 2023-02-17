@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <time.h>
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Print if number is positive, zero or negative
- * Return: Always
+ * Return: Returns 0 Always
  */
 
 int main(void)
