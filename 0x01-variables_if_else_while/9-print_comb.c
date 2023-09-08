@@ -23,7 +23,7 @@ int main(void)
 	 * The ',' and the ' ' represent the seperation between the numbers
 	 * This willcome after each number from 0-8
 	 */
-	if(numbers != '9')
+	if (numbers != '9')
 		putchar(',');
 	putchar(' ');
 
