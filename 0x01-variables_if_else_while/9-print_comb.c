@@ -11,7 +11,7 @@ int main(void)
 
 	/**
 	 * numbers = '0' begings print from number '0'
-	 * numbers <= '10' will end print at number '9'
+	 * numbers <= '9' will end print at number '9'
 	 * number++ will increase '0' one digit at a time until '9'
 	 */
 	for (numbers = '0'; numbers <= '9'; numbers++)
@@ -19,7 +19,7 @@ int main(void)
 
 	/**
 	 * "numbers != '9'" is used to set to set comma and space
-	 * after every number either than '9'
+	 * after every number other than '9'
 	 * The ',' and the ' ' represent the seperation between the numbers
 	 * This willcome after each number from 0-8
 	 */
