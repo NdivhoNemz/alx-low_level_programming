@@ -15,6 +15,7 @@ int main(void)
 	 * number++ will increase '0' one digit at a time until '9'
 	 */
 	for (numbers = '0'; numbers <= '9'; numbers++)
+	{
 		putchar(numbers);
 
 	/**
@@ -23,10 +24,12 @@ int main(void)
 	 * The ',' and the ' ' represent the seperation between the numbers
 	 * This willcome after each number from 0-8
 	 */
-	if (numbers != '9')
-		putchar(',');
-	putchar(' ');
-
+		if (numbers != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
 	putchar('\n');
 	/* "\n" prints on a new line */
 
