@@ -8,7 +8,6 @@
 int main(void)
 {
 	int digit_1, digit_2;
-
 	/**
 	 * "digit_1 = '0'" begings print from number '0'
 	 * "digit_1 < '9'" will end print at number '8'
