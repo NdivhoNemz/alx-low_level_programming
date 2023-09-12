@@ -1,6 +1,6 @@
 #ifndef main_h
 #define main_h
 
-int putchar (int character);
+int putchar(int char);
 
 #endif
