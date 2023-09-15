@@ -15,9 +15,9 @@ void print_diagonal(int n)
 	{
 		int diagonal_1, diagonal_2;
 
-		for (diagonal_1 = 1; diagonal_1 < n; diagonal_1++)
+		for (diagonal_1 = 0; diagonal_1 < n; diagonal_1++)
 		{
-			for (diagonal_2 = 1; diagonal_2 < n; diagonal_2++)
+			for (diagonal_2 = 0; diagonal_2 < n; diagonal_2++)
 			{
 				if (diagonal_2 == diagonal_1)
 				{
