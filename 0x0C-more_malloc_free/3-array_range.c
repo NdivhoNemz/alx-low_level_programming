@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
@@ -16,17 +17,12 @@ int *array_range(int min, int max)
 
 	if (min > max)
 	{
-	/* NULL - represents a null pointer */
 		return (NULL);
 	}
 	range = max - min + 1;
 
 	pointer = malloc(sizeof(int) * range);
-/**
- * range - is a variable that holds the total number of elements in the array
- * It is calculated as "max - min + 1"
- * This represents the range of values from min to max, inclusive.
- */
+	/* NULL - represents a null pointer */
 	if (pointer == NULL)
 	{
 		return (NULL);
@@ -37,3 +33,8 @@ int *array_range(int min, int max)
 	}
 	return (pointer);
 }
+/**
+ * range - is a variable that holds the total number of elements in the array
+ * It is calculated as "max - min + 1"
+ * This represents the range of values from min to max, inclusive.
+ */
