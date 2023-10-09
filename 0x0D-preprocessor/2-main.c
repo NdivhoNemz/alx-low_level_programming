@@ -9,7 +9,7 @@
 int main(void)
 {
 	int i;
-	char* filename = __FILE__;
+	char *filename = __FILE__;
 
 	for (i = 0; filename[i] != '\0'; i++)
 	{
@@ -18,7 +18,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-/**
- * The program uses the standard predifined macro __FILE__.
- * Standard predifned macro prints the name of the file it was compiled from
- */
