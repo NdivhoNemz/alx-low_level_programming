@@ -20,3 +20,4 @@ void free_dog(dog_t *d)
 	 */
 	}
 }
+/* Frees up all space allocotated by malloc */
