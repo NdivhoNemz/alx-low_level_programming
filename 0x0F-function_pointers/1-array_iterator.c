@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * array_iterator - prints each array elem on a newl
+ * array_iterator - a function given as parameter on each element of an array.
  * @array: pointer to an int array
  * @size: the size of the array
  * @action: function pointer takes an integer as argument and returns nothing.
